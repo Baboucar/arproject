@@ -7,6 +7,9 @@
          </p>
 
      </div>
+     <div class="slider">
+         <img class="slider__image" src="/../images/slider.jpeg" alt="">
+     </div>
     </div>
 </template>
 
@@ -39,5 +42,9 @@ import Navigation from '../components/Navigation';
      0%{transform: translate(0,0);}
      100% {transform: translate(-100%,0);}
  }
-
+  .slider__image{
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
 </style>
