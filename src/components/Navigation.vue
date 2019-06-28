@@ -20,18 +20,20 @@
                     </div>
                     <div class="contact__item">
                     <img class="icon" src="/../images/phone.png" alt="">
-                    <a href="tel:+1233444444">+234455555555555</a>
+                    <a href="tel:+221777102353">+221777102353</a>
+                      
                      </div>
                 </div>
             </div>
         </header>
       <nav class="nav">
-          <router-link to="/" class="nav__links" >Home</router-link>
-          <router-link to="/" class="nav__links">Bulk Sms</router-link>
-          <router-link to="/" class="nav__links">Services</router-link>
-          <router-link to="" class="nav__links">Pricing</router-link>
-          <router-link to="/" class="nav__links">Reseller</router-link>
-          <router-link to="" class="nav__links">Contact</router-link>
+          <router-link to="/" class="nav__links" >QUI SOMMES-NOUS ?</router-link>
+          <router-link to="/" class="nav__links">FUNCTIONQLITES</router-link>
+          <router-link to="/" class="nav__links">SERVICES</router-link>
+          <router-link to="" class="nav__links">TARIFS</router-link>
+          <router-link to="/" class="nav__links">API</router-link>
+          <router-link to="" class="nav__links">POUR QUI</router-link>
+             <router-link to="" class="nav__links">CONTACT</router-link>
       </nav>
       </div>
     
