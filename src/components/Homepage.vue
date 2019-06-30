@@ -24,7 +24,11 @@ import Navigation from '../components/Navigation';
 </script>
 
 <style lang="scss" scoped>
- .marquee{
+.marquee{
+    display:none;
+}
+ @media(min-width: 64rem){
+     .marquee{
      background: #4b68b8;
      width: 100%;
      display: inline-block;
@@ -47,4 +51,5 @@ import Navigation from '../components/Navigation';
       max-width: 100%;
       height: auto;
   }
+ }
 </style>
