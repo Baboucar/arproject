@@ -97,12 +97,15 @@
   background: #061551;
   position: fixed;
   width: 100%;
-  top: 4rem;
+  top: 5rem;
   bottom: 0;
   padding-top: 4rem;
   text-transform: capitalize;
   right: -1900px;
+box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
   transition: all .5s;
+
  
        &__links{
            display: block;
