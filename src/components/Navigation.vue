@@ -3,7 +3,7 @@
        
         <header class="header">
             <div class="logo hidden">
-                LOGO
+                <img class="logo" src="/../images/logo.png" alt="logo">
             </div>
             <div class="menu hidden">
                 <span class="menu__button" @click="open">&#9776;</span>
@@ -11,9 +11,14 @@
               
             <div class="desktop__header flex__nav">
              <div>
-                <img src="/../images/logo.png" alt="logo">
+                <img class="logo" src="/../images/logo.png" alt="logo">
+                 
              </div>
-                <div class="contact">
+             <div>
+
+             </div>
+             
+                <!-- <div class="contact">
                     <div class="contact__item">
                     <img class="icon" src="/../images/mail.png" alt="">
                     <a href="mailto:test@gmail.com"> info@gmail.com</a> 
@@ -23,16 +28,16 @@
                     <a href="tel:+221777102353">+221777102353</a>
                       
                      </div>
-                </div>
+                </div> -->
             </div>
         </header>
       <nav class="nav">
           <router-link to="/" class="nav__links" >QUI SOMMES-NOUS ?</router-link>
-          <router-link to="/" class="nav__links">FUNCTIONQLITES</router-link>
+          <router-link to="/" class="nav__links">FUNCTIONLITES</router-link>
           <router-link to="/" class="nav__links">SERVICES</router-link>
           <router-link to="" class="nav__links">TARIFS</router-link>
           <router-link to="/" class="nav__links">API</router-link>
-          <router-link to="" class="nav__links">POUR QUI</router-link>
+          <router-link to="" class="nav__links">POUR QUI?</router-link>
              <router-link to="" class="nav__links">CONTACT</router-link>
       </nav>
       </div>
@@ -57,6 +62,10 @@
 </script>
 
 <style lang="scss" scoped>
+
+.logo{
+    width: 300px;
+}
 
 .header{
     display: flex;

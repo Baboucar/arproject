@@ -8,7 +8,7 @@
 
      </div>
      <div class="slider">
-         <img class="slider__image" src="/../images/slider.jpeg" alt="">
+         <img class="slider__image" src="/../images/background.jpg" alt="alt">
      </div>
     </div>
 </template>
