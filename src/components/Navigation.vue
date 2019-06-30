@@ -18,17 +18,18 @@
 
              </div>
              
-                <!-- <div class="contact">
-                    <div class="contact__item">
-                    <img class="icon" src="/../images/mail.png" alt="">
-                    <a href="mailto:test@gmail.com"> info@gmail.com</a> 
-                    </div>
-                    <div class="contact__item">
-                    <img class="icon" src="/../images/phone.png" alt="">
-                    <a href="tel:+221777102353">+221777102353</a>
-                      
+                <div class="contact">
+               
+                    <div class="link__item">
+                    <!-- <img class="icon" src="/../images/phone.png" alt=""> -->
+                    <a href="tel:+221777102353">(+221)77.710.23.53</a>
                      </div>
-                </div> -->
+                    
+                    <div class="link__item">
+                     <router-link to="" class="header__links">CONNEXION</router-link>
+                     <router-link to="" class="header__links">INSCRIPTION</router-link>
+                    </div>
+                </div>
             </div>
         </header>
       <nav class="nav">
@@ -158,12 +159,16 @@
     //        padding-left: 1rem;
            
     //    }
-    .contact__item{
+    .link__item{
         display: flex;
         margin-left: 2rem;
         align-items: center;
+        justify-content: center;
         
-        
+    }
+
+    .header__links{
+        padding-left: 1rem;
     }
    }
 </style>
