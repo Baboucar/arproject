@@ -3,7 +3,7 @@
     <Navigation/>
      <div class="marquee">
          <p class="marquee__paragraph">
-            This is just a test
+           SMS - le moyen le plus efficace de joindre votre client.
          </p>
 
      </div>
